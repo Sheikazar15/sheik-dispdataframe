@@ -7,7 +7,7 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-df = pd.read_csv(r'C:C:\Users\Admin\Desktop\Data Analytics Sem-1\DATA 200\toy_dataset.csv')
+df = pd.read_csv('toy_dataset.csv')
 Age = df['Age']
 Income = df['Income']
 plt.bar(Age,Income)
