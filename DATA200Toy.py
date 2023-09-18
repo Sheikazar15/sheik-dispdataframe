@@ -16,9 +16,10 @@ plt.ylabel('Income')
 plt.title('Age vs Income')
 plt.show()
 x = plt.show()
-st.pyplot(x)
 st.set_option('deprecation.showPyplotGlobalUse', False)
-showPyplotGlobalUse = false
+st.pyplot(x)
+
+
 
 
 # In[ ]:
