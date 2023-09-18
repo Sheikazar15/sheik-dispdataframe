@@ -5,6 +5,7 @@
 
 
 import pandas as pd
+import streamlit as st
 import matplotlib.pyplot as plt
 df = pd.read_csv(r'C:\Users\Admin\Desktop\Anaconda\toy_dataset.csv')
 Age = df['Age']
@@ -14,7 +15,8 @@ plt.xlabel('Age')
 plt.ylabel('Income')
 plt.title('Age vs Income')
 plt.show()
-
+x = plt.show()
+st.pyplot(x)
 
 # In[ ]:
 
