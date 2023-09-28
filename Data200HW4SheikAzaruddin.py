@@ -32,7 +32,7 @@ plt.tight_layout()
 plt.show()
 
 # Display in Streamlit
-st.pyplot(x)
+st.pyplot(plt)
 
 
 # In[ ]:
